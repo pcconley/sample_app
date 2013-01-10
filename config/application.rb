@@ -1,6 +1,5 @@
 require File.expand_path('../boot', __FILE__)
 
-<<<<<<< HEAD
 # Pick the frameworks you want:
 require "active_record/railtie"
 require "action_controller/railtie"
@@ -8,9 +7,8 @@ require "action_mailer/railtie"
 require "active_resource/railtie"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
-=======
 require 'rails/all'
->>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
+
 
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
@@ -19,11 +17,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-<<<<<<< HEAD
 module SampleApp
-=======
-module FirstApp
->>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -53,12 +47,8 @@ module FirstApp
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
-<<<<<<< HEAD
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
-
-=======
->>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,
     # like if you have constraints or database-specific column types
@@ -68,11 +58,7 @@ module FirstApp
     # This will create an empty whitelist of attributes available for mass-assignment for all models
     # in your app. As such, your models will need to explicitly whitelist or blacklist accessible
     # parameters by using an attr_accessible or attr_protected declaration.
-<<<<<<< HEAD
     config.active_record.whitelist_attributes = true
-=======
-    # config.active_record.whitelist_attributes = true
->>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
 
     # Enable the asset pipeline
     config.assets.enabled = true
