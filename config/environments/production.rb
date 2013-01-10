@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 SampleApp::Application.configure do
+=======
+FirstApp::Application.configure do
+>>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -20,7 +24,11 @@ SampleApp::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+<<<<<<< HEAD
   # Defaults to nil and saved in location specified by config.assets.prefix
+=======
+  # Defaults to Rails.root.join("public/assets")
+>>>>>>> 30a5ee3670253f7130de2487178b391f5b9eeb44
   # config.assets.manifest = YOUR_PATH
 
   # Specifies the header that your server uses for sending files
